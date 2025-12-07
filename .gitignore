@@ -1,0 +1,20 @@
+# Compilación C
+bin/
+build/
+*.o
+*.out
+*.exe
+gmon.out
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Datos y Resultados (No queremos versionar los CSVs de prueba)
+data/resultados/*
+!data/resultados/.gitkeep
+
+# Editor
+.vscode/
+.DS_Store
