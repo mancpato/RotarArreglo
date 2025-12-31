@@ -278,6 +278,7 @@ int V11_Reversa(char A[], size_t Tam, size_t k)
     return SI;
 }
 
+/** Esta versión no es thread-safe */
 int V12_BufferEstatico(char A[], size_t Tam, size_t k)
 {
     // Buffer en segmento de datos (no heap)
